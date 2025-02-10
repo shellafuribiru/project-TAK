@@ -7,33 +7,33 @@ This project is an automation testing suite for the [BookCart website](https://b
 The project is organized as follows:
 
 ### **1. Test Cases**
-**Blocks**: Contains reusable modular test cases:
-  **Browser Management**
+- **Blocks**: Contains reusable modular test cases:
+  - **Browser Management**
     - `Open Browser`: Initializes and opens the browser.
     - `Close Browser`: Closes the browser after the test execution.
-  **Cart Management**
+  - **Cart Management**
     - `Add Item to Cart`: Adds a specific product to the shopping cart.
     - `Remove Item from Cart`: Removes a specific product from the cart.
     - `Clear Cart`: Removes all product from the cart.
     - `Go to Cart Page`: Navigates to cart page
     - `Empty State Cart`: Checks the cart when it is empty.
-  **Product Management**
+  - **Product Management**
     - `Go to Product Detail`: Navigates to product detail page
     - `Verify Product Details`: Verify all attributes on product details
-  **User Authentication**
+  - **User Authentication**
     - `Login Valid`: Tests successful login with valid credentials.
     - `Login Invalid`: Tests login with invalid credentials.
     - `Register Valid`: Tests successful user registration.
     - `Register Invalid`: Tests registration with invalid inputs.
     
     
-**Scenarios**: Contains end-to-end test cases simulating user workflows:
-  **Keranjang**
+- **Scenarios**: Contains end-to-end test cases simulating user workflows:
+  - **Keranjang**
     - Validates removing items and cart behavior
     - Validates empty cart state.
-  **Product Detail**
+  - **Product Detail**
     - Validates the display of the product detail page.
-  **Register**
+  - **Register**
     - Tests the registration process (successful and failed scenarios).
 
 ---
