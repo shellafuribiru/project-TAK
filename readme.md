@@ -45,3 +45,5 @@ Stores all the web elements categorized by their respective pages:
 - **Login Page**: Objects related to the login page.
 - **Product Detail Page**: Objects for the product detail page.
 - **Register Page**: Objects for the registration page.
+
+Link Google Drives : https://drive.google.com/file/d/1-1H3u86qaM_TYTaL6OEb2ni2M3TAPgOt/view?usp=drive_link
