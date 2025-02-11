@@ -35,6 +35,9 @@ The project is organized as follows:
     - Validates the display of the product detail page.
   - **Register**
     - Tests the registration process (successful and failed scenarios).
+  - **Login**
+    - Tests the login process (successful scenarios).
+      
 
 ---
 
