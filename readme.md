@@ -37,6 +37,8 @@ The project is organized as follows:
     - Tests the registration process (successful and failed scenarios).
   - **Login**
     - Tests the login process (successful scenarios).
+  - **Logout**
+    - Tests the logout process (successful scenarios).
       
 
 ---
