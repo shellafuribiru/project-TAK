@@ -17,15 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Beranda Page/span_Login'))
+WebUI.callTestCase(findTestCase('Blocks/Browser Management/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Login Page/mat-Title'))
+WebUI.callTestCase(findTestCase('Blocks/User Authentication/Login Valid'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Login Page/input_Username'), 'test_shella')
-
-WebUI.setEncryptedText(findTestObject('Login Page/input_Password'), 'YkLKeXwdBRhDIsefTLxSJA==')
-
-WebUI.click(findTestObject('Login Page/span_Login'))
-
-WebUI.verifyElementVisible(findTestObject('Beranda Page/mat-icon_account'))
+WebUI.callTestCase(findTestCase('Blocks/Browser Management/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
