@@ -6,12 +6,12 @@
    <elementGuidId>f7acbb3d-e790-4787-abdc-411d1699d4fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-mdc-tooltip-trigger.mdc-button.mdc-button--unelevated.mat-mdc-unelevated-button.mat-primary.mat-mdc-button-base.ng-star-inserted.cdk-focused.cdk-program-focused > span.mdc-button__label</value>
+         <key>XPATH</key>
+         <value>//mat-card-actions/button/span[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Cart'])[1]/following::span[9]</value>
+         <key>CSS</key>
+         <value>button.mat-mdc-tooltip-trigger.mdc-button.mdc-button--unelevated.mat-mdc-unelevated-button.mat-primary.mat-mdc-button-base.ng-star-inserted.cdk-focused.cdk-program-focused > span.mdc-button__label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>1771f6c8-afda-411a-a829-da787509691e</webElementGuid>
+      <webElementGuid>bcd3d9c0-baaa-47d2-add6-678ad4fd341f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mdc-button__label</value>
-      <webElementGuid>2e420169-dc79-40cd-8865-186b8303f3b3</webElementGuid>
+      <webElementGuid>699b13ef-0fd7-4348-90af-05df67ef13ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-nav-bar[@class=&quot;mat-elevation-z6&quot;]/mat-toolbar[@class=&quot;mat-toolbar mat-elevation-z4 mat-primary mat-toolbar-multiple-rows&quot;]/mat-toolbar-row[@class=&quot;mat-toolbar-row justify-content-between&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/button[@class=&quot;mat-mdc-tooltip-trigger mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary mat-mdc-button-base ng-star-inserted cdk-focused cdk-program-focused&quot;]/span[@class=&quot;mdc-button__label&quot;]</value>
-      <webElementGuid>fd0ac4aa-1e5b-45de-a75d-60f3348f6971</webElementGuid>
+      <webElementGuid>8caa7d4c-c530-420a-a786-57f2ccdf83e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Login </value>
-      <webElementGuid>f9fdf130-6ba5-490a-a5f4-ac88b886eef1</webElementGuid>
+      <webElementGuid>f0bb1006-6d7c-4e0a-9819-76e5bfcb7c9f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Cart'])[1]/following::span[9]</value>
-      <webElementGuid>2d308c67-8f06-4269-870f-31e3608615e4</webElementGuid>
+      <webElementGuid>6d89177e-2771-4416-97e4-8a0f0771f8b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swagger'])[1]/preceding::span[5]</value>
-      <webElementGuid>13aff389-9c94-4349-990d-d5a8443fdabd</webElementGuid>
+      <webElementGuid>31fee421-b4a5-4458-8ffa-a854ae2d5555</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub'])[1]/preceding::span[10]</value>
-      <webElementGuid>c509329e-0514-424a-80bd-67129a9325d1</webElementGuid>
+      <webElementGuid>52daeb92-849a-4c34-8561-e8027003fcf4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>8b63a41d-9192-441e-8d31-db2b5dd27182</webElementGuid>
+      <webElementGuid>c2b59d73-38e9-497a-83f9-4a6e558d552e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]/span[2]</value>
-      <webElementGuid>a672fa2a-943e-4eb2-9e31-c662ed6c2cc1</webElementGuid>
+      <webElementGuid>684c408f-d1a7-4be8-a0c4-b06000c8fee8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Login ' or . = ' Login ')]</value>
-      <webElementGuid>4e04b108-216b-43bd-9c3b-becb81bed8fc</webElementGuid>
+      <webElementGuid>a8d19415-ff5c-407b-bed9-dc24bd505185</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-card-actions/button/span[4]</value>
-      <webElementGuid>c61a3635-e419-4e0f-8881-0c1ca08a7e5a</webElementGuid>
+      <webElementGuid>654986cd-6e7f-45c9-985a-afe5c32d0c7c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
