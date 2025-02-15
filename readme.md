@@ -1,4 +1,4 @@
-# TAK - Exercise 1 - Automation Testing Project for BookCart
+# TAK - Automation Testing Project for BookCart
 
 ## Overview
 This project is an automation testing suite for the [BookCart website](https://bookcart.azurewebsites.net/). It is built using **Katalon Studio** with a modular structure to ensure reusability, scalability, and ease of maintenance.
