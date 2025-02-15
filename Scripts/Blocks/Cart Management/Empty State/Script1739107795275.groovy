@@ -17,5 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Keranjang Page/mat-Empty Text'))
 
+// **Cek apakah keranjang kosong dengan memeriksa elemen 'mat-Empty Text'**
+if (WebUI.verifyElementVisible(findTestObject('Keranjang Page/mat-Empty Text'), FailureHandling.OPTIONAL)) {
+    // **Jika elemen terlihat, berarti keranjang sudah kosong**
+    WebUI.comment('✅ Keranjang kosong, tidak perlu menghapus item.')
+} else {
+    // **Jika elemen tidak terlihat, berarti masih ada item di keranjang**
+    WebUI.comment('⚠ Keranjang tidak kosong, menghapus item...')
+
+    // **Klik tombol "Clear Cart" untuk mengosongkan keranjang**
+    WebUI.click(findTestObject('Keranjang Page/span_Clear Cart'))
+
+    // **Verifikasi bahwa elemen 'mat-Empty Text' muncul setelah keranjang dikosongkan**
+    WebUI.verifyElementVisible(findTestObject('Keranjang Page/mat-Empty Text'))
+}

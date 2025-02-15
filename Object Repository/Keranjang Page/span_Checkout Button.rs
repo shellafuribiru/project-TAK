@@ -6,12 +6,12 @@
    <elementGuidId>adfd8e70-afff-4026-a7db-4eec0a72cbd5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.my-2.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-warn.mat-mdc-button-base > span.mdc-button__label</value>
+         <key>XPATH</key>
+         <value>//span[(text() = ' CheckOut ' or . = ' CheckOut ')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='₹236.00'])[3]/following::span[2]</value>
+         <key>CSS</key>
+         <value>button.my-2.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-warn.mat-mdc-button-base > span.mdc-button__label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>971152c5-c1bf-4141-94ea-afbb79c5f04e</webElementGuid>
+      <webElementGuid>78afd38f-338d-4706-a0e9-a5c9008dc1f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mdc-button__label</value>
-      <webElementGuid>7c2baf55-7ded-4d59-94fd-75744e0e4bbf</webElementGuid>
+      <webElementGuid>1502b14d-735e-4528-b791-6ca8a09ce2c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value> CheckOut </value>
-      <webElementGuid>a57543c1-99f2-460a-af6d-ced067338b46</webElementGuid>
+      <webElementGuid>7aad28ec-b03d-429d-ab07-cbcefe620d61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-shoppingcart[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content ng-star-inserted&quot;]/td[@class=&quot;mat-mdc-cell mdc-data-table__cell cdk-cell cdk-column-action mat-column-action&quot;]/button[@class=&quot;my-2 mdc-button mdc-button--raised mat-mdc-raised-button mat-warn mat-mdc-button-base&quot;]/span[@class=&quot;mdc-button__label&quot;]</value>
-      <webElementGuid>f9ad31ea-1538-4fe2-a3c5-c2984076cd0b</webElementGuid>
+      <webElementGuid>cbfa3358-f46a-4bc0-ac43-1d2be8e71e25</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='₹236.00'])[3]/following::span[2]</value>
-      <webElementGuid>ceb8045c-10cf-49c9-85b0-962a0077c58b</webElementGuid>
+      <webElementGuid>a7b3a38c-1226-4436-8d75-216a3eced496</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart Total:'])[1]/following::span[2]</value>
-      <webElementGuid>7954ca18-6d6f-4d4a-9ea6-72181438fb5d</webElementGuid>
+      <webElementGuid>13d4cce6-bf78-4598-86dd-a03e2199ed95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='API details'])[1]/preceding::span[4]</value>
-      <webElementGuid>06f4bf73-9959-466e-bee2-d78b550a5635</webElementGuid>
+      <webElementGuid>0ba4cccc-b44a-4a39-81f3-1ed54fcf3f6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub'])[2]/preceding::span[4]</value>
-      <webElementGuid>adb71478-527c-4a28-8fbf-b0f81d6a6b1e</webElementGuid>
+      <webElementGuid>8c691412-7abe-4176-a752-8539cee88981</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CheckOut']/parent::*</value>
-      <webElementGuid>97472c2e-2080-4b77-b80f-ec00c189db54</webElementGuid>
+      <webElementGuid>9ad213f1-0b2d-4063-ab6d-d0cea0aca34c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-card-content[2]/td[6]/button/span[2]</value>
-      <webElementGuid>47163bce-60bc-482b-a6b2-0bfec35257b8</webElementGuid>
+      <webElementGuid>4238f4f4-cf81-4f1a-b586-dd7145bcba45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' CheckOut ' or . = ' CheckOut ')]</value>
-      <webElementGuid>9de0becf-4731-4f03-8374-ec2782f708e0</webElementGuid>
+      <webElementGuid>4ff4bcbf-9539-43ed-bb0d-efdf90397a5b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

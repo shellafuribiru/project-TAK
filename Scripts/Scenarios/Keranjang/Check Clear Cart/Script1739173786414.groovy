@@ -19,6 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Blocks/Browser Management/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Blocks/User Authentication/Login Valid'), [('username') : 'test_shella', ('password') : 'YkLKeXwdBRhDIsefTLxSJA=='], 
+    FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Blocks/Cart Management/Add Item to Cart'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Blocks/Cart Management/Go to Cart Page'), [:], FailureHandling.STOP_ON_FAILURE)

@@ -6,12 +6,12 @@
    <elementGuidId>01724714-f0c3-4427-9a18-a67331db78ca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>mat-icon.mat-icon.notranslate.mat-badge.mat-badge-warn.material-icons.mat-ligature-font.mat-icon-no-color.mat-badge-overlap.mat-badge-above.mat-badge-after.mat-badge-medium</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='shopping_cart']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Cart'])[1]/following::mat-icon[1]</value>
+         <key>CSS</key>
+         <value>mat-icon.mat-icon.notranslate.mat-badge.mat-badge-warn.material-icons.mat-ligature-font.mat-icon-no-color.mat-badge-overlap.mat-badge-above.mat-badge-after.mat-badge-medium</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-icon</value>
-      <webElementGuid>876064fd-31bd-4387-8abd-7822084d2023</webElementGuid>
+      <webElementGuid>7457c7c8-124a-4454-a49e-4ae6bc1de821</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>6f847481-3f2b-48dc-9850-ea35a2e42000</webElementGuid>
+      <webElementGuid>8ffc516d-03c0-49b3-93e2-8c58097231e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>matbadgecolor</name>
       <type>Main</type>
       <value>warn</value>
-      <webElementGuid>08974359-492f-4935-b47e-bc457fefb8a7</webElementGuid>
+      <webElementGuid>08bcb295-35ad-4f7f-b76a-00714020a29f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a100dfd0-b383-4ebc-8964-20af7b1fdb67</webElementGuid>
+      <webElementGuid>b68d41bd-b064-48eb-ba52-26b08eebc609</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-icon notranslate mat-badge mat-badge-warn material-icons mat-ligature-font mat-icon-no-color mat-badge-overlap mat-badge-above mat-badge-after mat-badge-medium</value>
-      <webElementGuid>70d897e2-cd70-4edf-931a-ca1799cb4daf</webElementGuid>
+      <webElementGuid>f6143637-60c0-4b79-bded-50966338879d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>data-mat-icon-type</name>
       <type>Main</type>
       <value>font</value>
-      <webElementGuid>63e1c5c7-d7ac-496f-9cd6-cd253ce8df0d</webElementGuid>
+      <webElementGuid>478214e5-16e1-403f-97c5-382461ed800e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>text</name>
       <type>Main</type>
       <value>shopping_cart0</value>
-      <webElementGuid>6ab8ee7f-c370-4674-890b-c2f517b1ad26</webElementGuid>
+      <webElementGuid>fa351f16-ad78-4fff-93fe-7b6b42b3dc2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-nav-bar[@class=&quot;mat-elevation-z6&quot;]/mat-toolbar[@class=&quot;mat-toolbar mat-elevation-z4 mat-primary mat-toolbar-multiple-rows&quot;]/mat-toolbar-row[@class=&quot;mat-toolbar-row justify-content-between&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/button[@class=&quot;mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted&quot;]/mat-icon[@class=&quot;mat-icon notranslate mat-badge mat-badge-warn material-icons mat-ligature-font mat-icon-no-color mat-badge-overlap mat-badge-above mat-badge-after mat-badge-medium&quot;]</value>
-      <webElementGuid>bbd0cdda-867f-46c6-bebb-58161b3ce0d6</webElementGuid>
+      <webElementGuid>81a11b65-9525-469b-bac7-4b6184053201</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Cart'])[1]/following::mat-icon[1]</value>
-      <webElementGuid>053eb69f-bab3-4916-aa06-59f71915950e</webElementGuid>
+      <webElementGuid>c6afd8f8-4c72-4152-b12d-6f8c92994656</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>1569419e-a459-4506-9ccc-3d6d4f36137a</webElementGuid>
+      <webElementGuid>57feae05-ed23-493a-85a3-fe9f3962b447</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Swagger'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>e5817b05-5b38-4707-b0e4-34dd42a826fa</webElementGuid>
+      <webElementGuid>9d21ebdb-14b1-43cd-a079-6805978e1b11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='shopping_cart']/parent::*</value>
-      <webElementGuid>4ec6d92c-3026-45a1-86a2-da7edfcd0266</webElementGuid>
+      <webElementGuid>0234daef-2cf2-4184-8119-ad4e4860bdd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button/mat-icon</value>
-      <webElementGuid>5b46eec9-df71-42f3-bf48-72ecf08105db</webElementGuid>
+      <webElementGuid>fb80e4ed-307a-459e-95f9-59763a986b96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +127,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-icon[(text() = 'shopping_cart0' or . = 'shopping_cart0')]</value>
-      <webElementGuid>be0e1350-6527-435a-926c-6bfc6560a2a1</webElementGuid>
+      <webElementGuid>c50e4748-b965-4bde-9c0a-30f9c75b7671</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

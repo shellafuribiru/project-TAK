@@ -17,27 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// **Verifikasi bahwa tombol "Login" terlihat di halaman Beranda**
 WebUI.verifyElementVisible(findTestObject('Beranda Page/span_Login'))
 
+// **Klik tombol "Login" untuk masuk ke halaman login**
 WebUI.click(findTestObject('Beranda Page/span_Login'))
 
+// **Klik tombol "Register" untuk masuk ke halaman pendaftaran**
 WebUI.click(findTestObject('Login Page/span_Register'))
 
+// **Verifikasi bahwa halaman registrasi berhasil dibuka**
 WebUI.verifyElementVisible(findTestObject('Register Page/mat-Title User Registration'))
 
+// **Isi field "First Name" dengan nama "Test"**
 WebUI.setText(findTestObject('Register Page/input_First Name'), 'Test')
 
+// **Isi field "Last Name" dengan nama "Shella"**
 WebUI.setText(findTestObject('Register Page/input_Last Name'), 'Shella')
 
+// **Isi field "User Name" dengan username "test_shella"**
 WebUI.setText(findTestObject('Register Page/input_User Name'), 'test_shella')
 
+// **Isi field "Password" dengan teks terenkripsi**
 WebUI.setEncryptedText(findTestObject('Register Page/input_Password'), 'iGDxf8hSRT4=')
 
+// **Isi field "Confirm Password" dengan teks terenkripsi yang sama**
 WebUI.setEncryptedText(findTestObject('Register Page/input_Confirm Password'), 'iGDxf8hSRT4=')
 
+// **Klik opsi "Gender Female"**
 WebUI.click(findTestObject('Register Page/input_Gender Female'))
 
+// **Klik tombol "Register" untuk mengajukan pendaftaran akun**
 WebUI.click(findTestObject('Register Page/span_Register Button'))
 
+// **Verifikasi bahwa pesan error format password muncul jika ada kesalahan format**
 WebUI.verifyElementVisible(findTestObject('Register Page/mat-Error Password Format'))
 

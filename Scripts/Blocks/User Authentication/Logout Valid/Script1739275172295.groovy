@@ -17,13 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// **Verifikasi bahwa ikon akun terlihat di halaman Beranda (berarti pengguna telah login)**
 WebUI.verifyElementVisible(findTestObject('Beranda Page/mat-icon_account'))
 
+// **Klik ikon akun untuk membuka menu dropdown yang berisi opsi Logout**
 WebUI.click(findTestObject('Beranda Page/mat-icon_account'))
 
+// **Verifikasi bahwa opsi "Logout" muncul di menu dropdown**
 WebUI.verifyElementVisible(findTestObject('Beranda Page/span_Logout'))
 
+// **Klik opsi "Logout" untuk keluar dari akun**
 WebUI.click(findTestObject('Beranda Page/span_Logout'))
 
+// **Verifikasi bahwa ikon akun tidak lagi terlihat di halaman Beranda (berarti pengguna telah logout)**
 WebUI.verifyElementNotPresent(findTestObject('Beranda Page/mat-icon_account'), 0)
 
