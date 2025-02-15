@@ -20,11 +20,15 @@ The project is organized as follows:
   - **Product Management**
     - `Go to Product Detail`: Navigates to product detail page
     - `Verify Product Details`: Verify all attributes on product details
+  - **Menu Management**
+    - `Click Menu`: Verify user can click menu on beranda page
   - **User Authentication**
     - `Login Valid`: Tests successful login with valid credentials.
     - `Login Invalid`: Tests login with invalid credentials.
     - `Register Valid`: Tests successful user registration.
     - `Register Invalid`: Tests registration with invalid inputs.
+   
+    
     
     
 - **Scenarios**: Contains end-to-end test cases simulating user workflows:
