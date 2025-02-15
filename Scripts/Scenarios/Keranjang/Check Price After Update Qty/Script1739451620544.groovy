@@ -17,20 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-// **Klik tombol "Login" di halaman Beranda untuk membuka halaman login**
-WebUI.click(findTestObject('Beranda Page/span_Login'))
+WebUI.callTestCase(findTestCase('Blocks/Browser Management/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-// **Verifikasi bahwa elemen "Title" pada halaman login terlihat (menandakan halaman login berhasil dibuka)**
-WebUI.verifyElementVisible(findTestObject('Login Page/mat-Title'))
+WebUI.callTestCase(findTestCase('Blocks/User Authentication/Login Valid'), [('username') : 'test_shella', ('password') : 'YkLKeXwdBRhDIsefTLxSJA=='], 
+    FailureHandling.STOP_ON_FAILURE)
 
-// **Masukkan username ke dalam input field username**
-WebUI.setText(findTestObject('Login Page/input_Username'), username)
+WebUI.callTestCase(findTestCase('Blocks/Cart Management/Add Item to Cart'), [:], FailureHandling.STOP_ON_FAILURE)
 
-// **Masukkan password ke dalam input field password (dalam bentuk terenkripsi)**
-WebUI.setEncryptedText(findTestObject('Login Page/input_Password'), password)
+WebUI.callTestCase(findTestCase('Blocks/Cart Management/Go to Cart Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-// **Klik tombol "Login" untuk masuk ke dalam aplikasi**
-WebUI.click(findTestObject('Login Page/span_Login'))
+WebUI.callTestCase(findTestCase('Blocks/Cart Management/Change Qty'), [:], FailureHandling.STOP_ON_FAILURE)
 
-// **Verifikasi bahwa ikon akun di halaman Beranda muncul setelah login berhasil**
-WebUI.verifyElementVisible(findTestObject('Beranda Page/mat-icon_account'))
+WebUI.callTestCase(findTestCase('Blocks/Cart Management/Clear Cart'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Blocks/Browser Management/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+

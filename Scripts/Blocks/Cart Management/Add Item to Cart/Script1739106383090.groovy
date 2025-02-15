@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// **Verifikasi bahwa tombol "Add to Cart" pada Produk 1 terlihat**
 WebUI.verifyElementVisible(findTestObject('Beranda Page/span_ATC Product 1'))
 
+// **Klik tombol "Add to Cart" untuk menambahkan produk ke keranjang**
 WebUI.click(findTestObject('Beranda Page/span_ATC Product 1'))
 
+// **Verifikasi bahwa notifikasi "Item Added" muncul setelah produk ditambahkan ke keranjang**
 WebUI.verifyElementVisible(findTestObject('Beranda Page/div_Snackbar Item Added'))
-

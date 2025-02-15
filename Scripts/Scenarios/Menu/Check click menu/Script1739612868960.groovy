@@ -17,20 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-// **Klik tombol "Login" di halaman Beranda untuk membuka halaman login**
-WebUI.click(findTestObject('Beranda Page/span_Login'))
+WebUI.callTestCase(findTestCase('Blocks/Browser Management/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-// **Verifikasi bahwa elemen "Title" pada halaman login terlihat (menandakan halaman login berhasil dibuka)**
-WebUI.verifyElementVisible(findTestObject('Login Page/mat-Title'))
+WebUI.callTestCase(findTestCase('Blocks/Menus Management/Click Menu'), [('menu') : 'Fiction'], FailureHandling.STOP_ON_FAILURE)
 
-// **Masukkan username ke dalam input field username**
-WebUI.setText(findTestObject('Login Page/input_Username'), username)
+WebUI.callTestCase(findTestCase('Blocks/Browser Management/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-// **Masukkan password ke dalam input field password (dalam bentuk terenkripsi)**
-WebUI.setEncryptedText(findTestObject('Login Page/input_Password'), password)
-
-// **Klik tombol "Login" untuk masuk ke dalam aplikasi**
-WebUI.click(findTestObject('Login Page/span_Login'))
-
-// **Verifikasi bahwa ikon akun di halaman Beranda muncul setelah login berhasil**
-WebUI.verifyElementVisible(findTestObject('Beranda Page/mat-icon_account'))

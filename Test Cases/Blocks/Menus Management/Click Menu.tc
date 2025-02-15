@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Click Menu</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d4b2747e-5838-4e9c-8b5e-d24b9afc439c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fa072aa0-efe2-481c-bd14-74dc10584ee6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Fiction'</defaultValue>
+      <description></description>
+      <id>fa072aa0-efe2-481c-bd14-74dc10584ee6</id>
+      <masked>false</masked>
+      <name>menu</name>
+   </variable>
+</TestCaseEntity>

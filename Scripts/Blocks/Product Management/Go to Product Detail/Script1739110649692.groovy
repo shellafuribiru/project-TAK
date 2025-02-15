@@ -17,17 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// **Verifikasi bahwa elemen produk "Harry Potter" terlihat di halaman Beranda**
 WebUI.verifyElementVisible(findTestObject('Beranda Page/Product Details/div_Harry Potter'))
 
+// **Ambil teks nama produk dari halaman Beranda**
 String productNameExpected = WebUI.getText(findTestObject('Beranda Page/Product Details/div_Harry Potter'))
 
-GlobalVariable.productNameExpected = productNameExpected
-
+// **Verifikasi bahwa harga produk terlihat di halaman Beranda**
 WebUI.verifyElementVisible(findTestObject('Beranda Page/Product Details/p_Product Price'))
 
+// **Ambil teks harga produk dari halaman Beranda**
 String productPriceExpected = WebUI.getText(findTestObject('Beranda Page/Product Details/p_Product Price'))
 
+// **Simpan harga produk ke dalam Global Variable untuk digunakan dalam test case lain**
 GlobalVariable.productPriceExpected = productPriceExpected
 
+// **Klik produk "Harry Potter" untuk masuk ke halaman detail produk**
 WebUI.click(findTestObject('Beranda Page/Product Details/div_Harry Potter'))
-

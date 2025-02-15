@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>strong_Cart Total</name>
+   <name>td_Total Price</name>
    <tag></tag>
-   <elementGuidId>74aeb079-3ada-4ec1-aeda-7d9e798576aa</elementGuidId>
+   <elementGuidId>5fc74f93-e2c4-41fb-8658-03b576f160b1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[5]/strong</value>
+         <value>//td[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>strong</value>
+         <value>td:nth-of-type(4)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,79 +22,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>strong</value>
-      <webElementGuid>84e9fd32-9444-41a1-a9bc-c752c540b21a</webElementGuid>
+      <value>td</value>
+      <webElementGuid>42125cde-fa46-4699-a22e-b5b33de0f1ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Cart Total:</value>
-      <webElementGuid>8a2976ef-c0ee-4bbe-9d5d-96fc50af36e0</webElementGuid>
+      <value> ₹708.00 </value>
+      <webElementGuid>85019922-4d36-476f-8df0-a1d81a064b7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-shoppingcart[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content ng-star-inserted&quot;]/td[@class=&quot;mat-mdc-cell mdc-data-table__cell cdk-cell cdk-column-action mat-column-action&quot;]/strong[1]</value>
-      <webElementGuid>e13d5089-2a5b-43c5-bc97-0502aa5de458</webElementGuid>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-checkout[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content p-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/table[@class=&quot;table ng-star-inserted&quot;]/tbody[1]/tr[@class=&quot;ng-star-inserted&quot;]/td[4]</value>
+      <webElementGuid>00d0abd2-9dfe-458a-9235-e59fbda199d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹236.00'])[2]/following::strong[1]</value>
-      <webElementGuid>e207772b-4f16-4a23-a74e-e52f51a51d03</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹236.00'])[1]/following::td[1]</value>
+      <webElementGuid>e0c62f9b-d092-4fbf-be1a-96299e3aed54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹236.00'])[1]/following::strong[1]</value>
-      <webElementGuid>bc857bb2-c500-4a44-8a06-95c29ec670b7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harry Potter and the Chamber of Secrets'])[1]/following::td[3]</value>
+      <webElementGuid>fa8a7308-d8b2-4dfa-9de9-aed1800a134b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹236.00'])[3]/preceding::strong[1]</value>
-      <webElementGuid>013c81ce-8e9c-4526-b3a9-71a3efb606e5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grand Total'])[1]/preceding::td[3]</value>
+      <webElementGuid>38cee222-5cd1-48ac-94a5-7c1ff7d498c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CheckOut'])[1]/preceding::strong[2]</value>
-      <webElementGuid>8b663c7f-05d1-4354-a315-76fcae5f7b33</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹708.00'])[2]/preceding::td[3]</value>
+      <webElementGuid>893c73bf-b3dc-452c-beac-037bc030cc89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Cart Total:']/parent::*</value>
-      <webElementGuid>e76ccf03-090c-44ab-a4e4-b05f47a51ac4</webElementGuid>
+      <value>//*/text()[normalize-space(.)='₹708.00']/parent::*</value>
+      <webElementGuid>88b2e76d-511e-4c54-a237-efd0a61d3c09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//strong</value>
-      <webElementGuid>f3418840-f4bd-4f04-a7f3-7ebe21490a61</webElementGuid>
+      <value>//td[4]</value>
+      <webElementGuid>7ff7b936-ffa9-449e-a3ed-bbcd0812c1f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//strong[(text() = 'Cart Total:' or . = 'Cart Total:')]</value>
-      <webElementGuid>1cb8e5d2-2766-499b-bc9c-16ff6f01129d</webElementGuid>
+      <value>//td[(text() = ' ₹708.00 ' or . = ' ₹708.00 ')]</value>
+      <webElementGuid>9ddf4ab4-cf34-43c0-8c0a-189bed8d20dc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

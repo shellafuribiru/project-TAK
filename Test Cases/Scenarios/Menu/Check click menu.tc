@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Cart Total</name>
+   <name>Check click menu</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>8b11cc29-01d1-44a2-bdc1-ff272ba96d13</testCaseGuid>
+   <testCaseGuid>36a98d2c-7d52-4d72-8360-7f29fb807e1c</testCaseGuid>
 </TestCaseEntity>

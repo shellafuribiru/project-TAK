@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test</name>
+   <name>Check Price After Update Qty</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b7a14ef3-08c8-4dc1-aa8b-0136fe9870a2</testCaseGuid>
+   <testCaseGuid>7e58967c-e211-4e01-a4c5-0ea8b51ac816</testCaseGuid>
 </TestCaseEntity>

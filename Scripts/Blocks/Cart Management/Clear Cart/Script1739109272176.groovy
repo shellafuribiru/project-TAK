@@ -17,11 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// **Verifikasi bahwa tombol "Clear Cart" terlihat**
 WebUI.verifyElementVisible(findTestObject('Keranjang Page/span_Clear Cart'))
 
+// **Klik tombol "Clear Cart" untuk mengosongkan keranjang**
 WebUI.click(findTestObject('Keranjang Page/span_Clear Cart'))
 
+// **Verifikasi bahwa notifikasi "Cart Cleared" muncul setelah penghapusan berhasil**
 WebUI.verifyElementVisible(findTestObject('Keranjang Page/div_Cart Cleared'))
 
+// **Verifikasi bahwa teks "Empty Cart" muncul, menunjukkan bahwa keranjang kosong**
 WebUI.verifyElementVisible(findTestObject('Keranjang Page/mat-Empty Text'))
-

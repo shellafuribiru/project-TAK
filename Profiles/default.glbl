@@ -6,12 +6,27 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'Harry Potter and the Chamber of Secrets'</initValue>
       <name>productNameExpected</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'₹236.00'</initValue>
       <name>productPriceExpected</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>cartPriceTotal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>qty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>priceTotal</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
