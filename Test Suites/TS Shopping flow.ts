@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS Shopping flow</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>58fb324d-b24e-479b-9391-49491e2776d3</testSuiteGuid>
+   <testCaseLink>
+      <guid>6133e251-781c-40b9-9c3c-934555b78b14</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenarios/Keranjang/Verify Clear Cart</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e9f01ae6-2794-46a8-ae01-ed437f537a66</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenarios/Keranjang/Verify Price After Update Qty</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a14af365-0ed3-4bed-bab9-76539210c6a7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenarios/Keranjang/Verify Remove item From Cart</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3c6e1e1f-b144-4941-9b93-ee341092ce4d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenarios/Checkout/Verify Checkout Success</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>757dbc50-a4bd-4466-8ba9-bf0641eea69a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Checkout1</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>757dbc50-a4bd-4466-8ba9-bf0641eea69a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Name</value>
+         <variableId>d3ace4a6-1dd5-482d-86c9-f322f23ce54d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>757dbc50-a4bd-4466-8ba9-bf0641eea69a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Address_1</value>
+         <variableId>5a234bbd-4388-47c5-9707-286f599bb996</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>757dbc50-a4bd-4466-8ba9-bf0641eea69a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Address_2</value>
+         <variableId>8bc503fe-191b-49f7-8909-e95a73268a0b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>757dbc50-a4bd-4466-8ba9-bf0641eea69a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Pincode</value>
+         <variableId>5ea1cef5-d16d-4865-bd7c-289ad51a0be1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>757dbc50-a4bd-4466-8ba9-bf0641eea69a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>State</value>
+         <variableId>a661da44-6284-4296-b110-57b40f41ec3f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

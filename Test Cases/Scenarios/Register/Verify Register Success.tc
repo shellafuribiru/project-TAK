@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Check Remove item From Cart</name>
+   <name>Verify Register Success</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>431360bf-589c-4ec0-a2cc-dc98a60e0dae</testCaseGuid>
+   <testCaseGuid>2a2a5b94-a1a3-4f04-bfeb-8e3c582bc0f0</testCaseGuid>
 </TestCaseEntity>

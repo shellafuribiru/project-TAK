@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Logout success</name>
+   <name>Verify product details</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>1b5f4864-13a5-4954-bdc5-ad08c8d57755</testCaseGuid>
+   <testCaseGuid>4e972881-c66f-47ba-b508-4ec8d2354750</testCaseGuid>
 </TestCaseEntity>

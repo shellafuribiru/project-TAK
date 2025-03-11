@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 // **Klik elemen quantity untuk memperbarui jumlah produk**
-WebUI.click(findTestObject('Keranjang Page/div_Qty'))
+WebUI.click(findTestObject('Keranjang Page/mat-Icon Add'))
 
 // **Ambil teks jumlah produk setelah perubahan**
 String qtyText = WebUI.getText(findTestObject('Keranjang Page/div_Qty'))
@@ -42,9 +42,5 @@ double cartTotal = cartTotalText.replaceAll('[^0-9.]', '').toDouble()
 double expectedTotal = qtyAfterChanged * productPrice
 
 // **Validasi apakah total harga sesuai dengan perhitungan**
-if (cartTotal == expectedTotal) {
-    WebUI.comment('✅ Validasi Berhasil! Total harga sesuai: ' + cartTotal)
-} else {
-    WebUI.comment((('❌ Validasi Gagal! Expected: ' + expectedTotal) + ', but got: ') + cartTotal)
-}
+WebUI.verifyEqual(cartTotal, expectedTotal, FailureHandling.STOP_ON_FAILURE)
 

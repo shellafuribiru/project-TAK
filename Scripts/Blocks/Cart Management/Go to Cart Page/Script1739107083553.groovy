@@ -26,26 +26,30 @@ WebUI.click(findTestObject('Beranda Page/mat-Icon Cart'))
 // **Verifikasi halaman keranjang berhasil dibuka**
 WebUI.verifyElementVisible(findTestObject('Keranjang Page/mat-Title Shopping cart'))
 
-// **Verifikasi produk terlihat dalam keranjang**
-WebUI.verifyElementVisible(findTestObject('Keranjang Page/a_Actual Name Product'))
+if (WebUI.verifyElementVisible(findTestObject('Keranjang Page/mat-Empty Text'), FailureHandling.OPTIONAL)) {
+	// **Jika elemen terlihat, berarti keranjang sudah kosong**
+	WebUI.comment('✅ Keranjang kosong.')
+} else {
+	// **Verifikasi produk terlihat dalam keranjang**
+	WebUI.verifyElementVisible(findTestObject('Keranjang Page/a_Actual Name Product'))
 
-// **Ambil teks nama produk dari halaman keranjang**
-String actualProductName = WebUI.getText(findTestObject('Keranjang Page/a_Actual Name Product'))
+	// **Ambil teks nama produk dari halaman keranjang**
+	String actualProductName = WebUI.getText(findTestObject('Keranjang Page/a_Actual Name Product'))
 
-// **Ambil nama produk yang diharapkan dari Global Variable**
-String expectedProductName = GlobalVariable.productNameExpected
+	// **Ambil nama produk yang diharapkan dari Global Variable**
+	String expectedProductName = GlobalVariable.productNameExpected
 
-// **Bandingkan nama produk yang terlihat di UI dengan yang diharapkan**
-WebUI.verifyMatch(actualProductName, expectedProductName, false, FailureHandling.STOP_ON_FAILURE)
+	// **Bandingkan nama produk yang terlihat di UI dengan yang diharapkan**
+	WebUI.verifyMatch(actualProductName, expectedProductName, false, FailureHandling.STOP_ON_FAILURE)
 
-// **Verifikasi elemen jumlah (quantity) produk terlihat di halaman keranjang**
-WebUI.verifyElementVisible(findTestObject('Keranjang Page/div_Qty'))
+	// **Verifikasi elemen jumlah (quantity) produk terlihat di halaman keranjang**
+	WebUI.verifyElementVisible(findTestObject('Keranjang Page/div_Qty'))
 
-// **Ambil nilai jumlah (quantity) produk**
-String qty = WebUI.getText(findTestObject('Keranjang Page/div_Qty'))
+	// **Ambil nilai jumlah (quantity) produk**
+	String qty = WebUI.getText(findTestObject('Keranjang Page/div_Qty'))
 
-// **Simpan nilai quantity ke Global Variable agar bisa digunakan di test case lain**
-GlobalVariable.qty = qty
+	// **Simpan nilai quantity ke Global Variable agar bisa digunakan di test case lain**
+	GlobalVariable.qty = qty
 
 // **Verifikasi elemen harga produk terlihat di halaman keranjang**
 WebUI.verifyElementVisible(findTestObject('Keranjang Page/td_Actual Price Product'))
@@ -78,9 +82,11 @@ int qtyInt = qty.replaceAll('[^0-9]', '').toInteger()
 double expectedTotal = qtyInt * productPrice
 
 // **Cetak hasil ke log untuk debugging**
-WebUI.comment("✅ QTY INT: " + qtyInt)
-WebUI.comment("✅ Price Total: " + priceTotal)
-WebUI.comment("✅ Expected Total: " + expectedTotal)
+WebUI.comment('✅ QTY INT: ' + qtyInt)
+
+WebUI.comment('✅ Price Total: ' + priceTotal)
+
+WebUI.comment('✅ Expected Total: ' + expectedTotal)
 
 // **Validasi apakah total harga sesuai dengan perhitungan**
 WebUI.verifyEqual(priceTotal, expectedTotal, FailureHandling.STOP_ON_FAILURE)
@@ -96,3 +102,5 @@ String cartTotalPrice = WebUI.getText(findTestObject('Keranjang Page/strong_Cart
 
 // **Simpan nilai total harga cart ke dalam Global Variable**
 GlobalVariable.cartPriceTotal = cartTotalPrice
+}
+

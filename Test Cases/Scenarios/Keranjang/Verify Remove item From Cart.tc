@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Check Clear Cart</name>
+   <name>Verify Remove item From Cart</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>9c300888-83ab-4695-8de6-2c1caa11eb74</testCaseGuid>
+   <testCaseGuid>431360bf-589c-4ec0-a2cc-dc98a60e0dae</testCaseGuid>
 </TestCaseEntity>
