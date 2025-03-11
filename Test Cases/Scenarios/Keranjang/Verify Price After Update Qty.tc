@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login Success</name>
+   <name>Verify Price After Update Qty</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>6827fb7f-1a52-4750-8d39-64e2d713f4b3</testCaseGuid>
+   <testCaseGuid>7e58967c-e211-4e01-a4c5-0ea8b51ac816</testCaseGuid>
 </TestCaseEntity>

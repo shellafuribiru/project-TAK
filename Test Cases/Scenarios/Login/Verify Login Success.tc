@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Check product details</name>
+   <name>Verify Login Success</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>4e972881-c66f-47ba-b508-4ec8d2354750</testCaseGuid>
+   <testCaseGuid>6827fb7f-1a52-4750-8d39-64e2d713f4b3</testCaseGuid>
 </TestCaseEntity>

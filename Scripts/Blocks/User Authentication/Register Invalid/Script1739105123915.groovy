@@ -30,19 +30,19 @@ WebUI.click(findTestObject('Login Page/span_Register'))
 WebUI.verifyElementVisible(findTestObject('Register Page/mat-Title User Registration'))
 
 // **Isi field "First Name" dengan nama "Test"**
-WebUI.setText(findTestObject('Register Page/input_First Name'), 'Test')
+WebUI.setText(findTestObject('Register Page/input_First Name'), firstname)
 
 // **Isi field "Last Name" dengan nama "Shella"**
-WebUI.setText(findTestObject('Register Page/input_Last Name'), 'Shella')
+WebUI.setText(findTestObject('Register Page/input_Last Name'), lastname)
 
 // **Isi field "User Name" dengan username "test_shella"**
-WebUI.setText(findTestObject('Register Page/input_User Name'), 'test_shella')
+WebUI.setText(findTestObject('Register Page/input_User Name'), username)
 
 // **Isi field "Password" dengan teks terenkripsi**
-WebUI.setEncryptedText(findTestObject('Register Page/input_Password'), 'iGDxf8hSRT4=')
+WebUI.setEncryptedText(findTestObject('Register Page/input_Password'), password)
 
 // **Isi field "Confirm Password" dengan teks terenkripsi yang sama**
-WebUI.setEncryptedText(findTestObject('Register Page/input_Confirm Password'), 'iGDxf8hSRT4=')
+WebUI.setEncryptedText(findTestObject('Register Page/input_Confirm Password'), confirmpassword)
 
 // **Klik opsi "Gender Female"**
 WebUI.click(findTestObject('Register Page/input_Gender Female'))

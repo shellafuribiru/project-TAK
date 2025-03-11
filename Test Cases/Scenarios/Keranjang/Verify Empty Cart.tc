@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login Failed</name>
+   <name>Verify Empty Cart</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>1080b546-a178-4106-a28c-5b3c47f56eec</testCaseGuid>
+   <testCaseGuid>63db8db8-5f38-4f55-8c4a-cf669b9df1dc</testCaseGuid>
 </TestCaseEntity>

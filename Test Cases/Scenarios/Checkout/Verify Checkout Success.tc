@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Checkout Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f8ad0402-d5e9-4ee6-b770-2e1d428f5ac4</testCaseGuid>
+   <variable>
+      <defaultValue>'Shella'</defaultValue>
+      <description></description>
+      <id>d3ace4a6-1dd5-482d-86c9-f322f23ce54d</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jakarta'</defaultValue>
+      <description></description>
+      <id>5a234bbd-4388-47c5-9707-286f599bb996</id>
+      <masked>false</masked>
+      <name>Address_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Tangerang'</defaultValue>
+      <description></description>
+      <id>8bc503fe-191b-49f7-8909-e95a73268a0b</id>
+      <masked>false</masked>
+      <name>Address_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description></description>
+      <id>5ea1cef5-d16d-4865-bd7c-289ad51a0be1</id>
+      <masked>false</masked>
+      <name>Pincode</name>
+   </variable>
+   <variable>
+      <defaultValue>'DKI Jakarta'</defaultValue>
+      <description></description>
+      <id>a661da44-6284-4296-b110-57b40f41ec3f</id>
+      <masked>false</masked>
+      <name>State</name>
+   </variable>
+</TestCaseEntity>
